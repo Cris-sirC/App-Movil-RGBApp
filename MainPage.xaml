@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoColores.MainPage"
+             x:Name="FondoApp"
+             BackgroundColor="#000000">
+
+    <Grid>
+        <ScrollView>
+            <VerticalStackLayout Spacing="25" Padding="30" VerticalOptions="Center">
+
+                <Border BackgroundColor="White" StrokeShape="RoundRectangle 10" Stroke="Transparent" Padding="20">
+                    <Border.Shadow>
+                        <Shadow Brush="Black" Offset="0,2" Opacity="0.2" Radius="5" />
+                    </Border.Shadow>
+                    
+                    <VerticalStackLayout Spacing="15">
+                        
+                        <Label Text="Colores" FontSize="24" FontAttributes="Bold" HorizontalOptions="Center" TextColor="Black" Margin="0,0,0,10"/>
+
+                        <Label Text="Red Value:" TextColor="Black"/>
+                        <Slider x:Name="SldRed" Minimum="0" Maximum="255" Value="0" ValueChanged="OnSliderValueChanged" MinimumTrackColor="#B22222" ThumbColor="#B22222"/>
+
+                        <Label Text="Green Value:" TextColor="Black"/>
+                        <Slider x:Name="SldGreen" Minimum="0" Maximum="255" Value="0" ValueChanged="OnSliderValueChanged" MinimumTrackColor="#B22222" ThumbColor="#B22222"/>
+
+                        <Label Text="Blue Value:" TextColor="Black"/>
+                        <Slider x:Name="SldBlue" Minimum="0" Maximum="255" Value="0" ValueChanged="OnSliderValueChanged" MinimumTrackColor="#B22222" ThumbColor="#B22222"/>
+
+                        <Border Stroke="LightGray" StrokeThickness="1" StrokeShape="RoundRectangle 25" Padding="15,5" HorizontalOptions="Center" BackgroundColor="White" Margin="0,15">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                <Label x:Name="LblHex" Text="HEX Value: #000000" VerticalOptions="Center" FontSize="16" TextColor="Black"/>
+                                <Button Text="📄" Clicked="OnCopyClicked" BackgroundColor="#E67E22" TextColor="White" WidthRequest="40" HeightRequest="40" CornerRadius="5" Padding="0"/>
+                            </HorizontalStackLayout>
+                        </Border>
+
+                        <Button Text="Generate Random Color" Clicked="OnRandomClicked" BackgroundColor="#A040A0" TextColor="White" CornerRadius="8" Padding="10" FontAttributes="Bold"/>
+                    
+                    </VerticalStackLayout>
+                </Border>
+            </VerticalStackLayout>
+        </ScrollView>
+
+        <Border x:Name="ToastFrame" IsVisible="False" BackgroundColor="White" StrokeShape="RoundRectangle 20" Stroke="Transparent" Padding="15,8" HorizontalOptions="Center" VerticalOptions="End" Margin="0,0,0,40">
+            <HorizontalStackLayout Spacing="10">
+                <Border StrokeShape="RoundRectangle 10" Stroke="Transparent" BackgroundColor="#5A2D82" VerticalOptions="Center">
+                    <Label Text="NET" TextColor="White" FontAttributes="Bold" Padding="8,4" />
+                </Border>
+                <Label Text="Color copied" VerticalOptions="Center" TextColor="Black"/>
+            </HorizontalStackLayout>
+        </Border>
+    </Grid>
+</ContentPage>
