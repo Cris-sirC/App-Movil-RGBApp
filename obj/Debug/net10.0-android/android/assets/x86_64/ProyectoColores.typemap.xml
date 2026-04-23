@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="ProyectoColores" mvid="1b6ce8a2158b49538c569c56cfd2cbe0">
+<api type="debug" assembly-name="ProyectoColores" mvid="8327ff5d2214445b976e9cea58b85f33">
   <java-to-managed>
     <entry java-name="crc6431c44af66a4dd925/MainActivity" managed-name="ProyectoColores.MainActivity, ProyectoColores" managed-type-token-id="33554442" />
     <entry java-name="crc6431c44af66a4dd925/MainApplication" managed-name="ProyectoColores.MainApplication, ProyectoColores" managed-type-token-id="33554443" />

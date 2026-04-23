@@ -20,13 +20,13 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ProyectoColores
-build_property.ProjectDir = C:\Users\mifmi\Desktop\VSCode\Aplicaciones moviles\ProyectoColores\
+build_property.ProjectDir = C:\Users\crist\OneDrive\Desktop\Otros\Mobile\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/mifmi/Desktop/VSCode/Aplicaciones moviles/ProyectoColores/App.xaml]
+[C:/Users/crist/OneDrive/Desktop/Otros/Mobile/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoColores.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
@@ -36,7 +36,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/mifmi/Desktop/VSCode/Aplicaciones moviles/ProyectoColores/AppShell.xaml]
+[C:/Users/crist/OneDrive/Desktop/Otros/Mobile/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoColores.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
@@ -46,7 +46,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/mifmi/Desktop/VSCode/Aplicaciones moviles/ProyectoColores/MainPage.xaml]
+[C:/Users/crist/OneDrive/Desktop/Otros/Mobile/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoColores.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
@@ -56,7 +56,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/mifmi/Desktop/VSCode/Aplicaciones moviles/ProyectoColores/Resources/Styles/Colors.xaml]
+[C:/Users/crist/OneDrive/Desktop/Otros/Mobile/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoColores.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
@@ -66,7 +66,7 @@ build_metadata.AdditionalFiles.NoWarn =
 build_metadata.AdditionalFiles.EnableDiagnostics = 
 build_metadata.AdditionalFiles.LineInfo = 
 
-[C:/Users/mifmi/Desktop/VSCode/Aplicaciones moviles/ProyectoColores/Resources/Styles/Styles.xaml]
+[C:/Users/crist/OneDrive/Desktop/Otros/Mobile/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = ProyectoColores.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml

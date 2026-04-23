@@ -29,8 +29,17 @@
 
                         <Border Stroke="LightGray" StrokeThickness="1" StrokeShape="RoundRectangle 25" Padding="15,5" HorizontalOptions="Center" BackgroundColor="White" Margin="0,15">
                             <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                
                                 <Label x:Name="LblHex" Text="HEX Value: #000000" VerticalOptions="Center" FontSize="16" TextColor="Black"/>
-                                <Button Text="📄" Clicked="OnCopyClicked" BackgroundColor="#E67E22" TextColor="White" WidthRequest="40" HeightRequest="40" CornerRadius="5" Padding="0"/>
+                                
+                                <ImageButton Source="copy.svg" 
+                                            Clicked="OnCopyClicked" 
+                                            BackgroundColor="#FF3F3F3F" 
+                                            WidthRequest="40" 
+                                            HeightRequest="40" 
+                                            CornerRadius="5" 
+                                            Padding="8"/>
+                                            
                             </HorizontalStackLayout>
                         </Border>
 

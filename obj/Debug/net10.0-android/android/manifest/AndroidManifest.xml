@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
     Una herramienta generó este código.
-    Se generó desde C:\Users\mifmi\Desktop\VSCode\Aplicaciones moviles\ProyectoColores\Platforms\Android\AndroidManifest.xml
+    Se generó desde C:\Users\crist\OneDrive\Desktop\Otros\Mobile\Platforms\Android\AndroidManifest.xml
     Los cambios realizados en este archivo pueden generar un comportamiento incorrecto y se perderán si
     se regenera el contenido.
 -->
@@ -11,7 +11,7 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <permission android:name="com.companyname.proyectocolores.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" android:protectionLevel="signature" />
   <uses-permission android:name="com.companyname.proyectocolores.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-  <application android:name="crc6431c44af66a4dd925.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="ProyectoColores" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
+  <application android:name="crc6431c44af66a4dd925.MainApplication" android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:debuggable="true" android:extractNativeLibs="true" android:icon="@mipmap/appicon" android:label="RNGB" android:roundIcon="@mipmap/appicon_round" android:supportsRtl="true">
     <activity android:name="crc6431c44af66a4dd925.MainActivity" android:configChanges="density|orientation|smallestScreenSize|screenLayout|screenSize|uiMode" android:exported="true" android:launchMode="singleTop" android:theme="@style/Maui.SplashTheme">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

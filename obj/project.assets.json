@@ -28989,20 +28989,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mifmi\\.nuget\\packages\\": {}
+    "C:\\Users\\crist\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mifmi\\Desktop\\VSCode\\Aplicaciones moviles\\ProyectoColores\\ProyectoColores.csproj",
+      "projectUniqueName": "C:\\Users\\crist\\OneDrive\\Desktop\\Otros\\Mobile\\ProyectoColores.csproj",
       "projectName": "ProyectoColores",
-      "projectPath": "C:\\Users\\mifmi\\Desktop\\VSCode\\Aplicaciones moviles\\ProyectoColores\\ProyectoColores.csproj",
-      "packagesPath": "C:\\Users\\mifmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mifmi\\Desktop\\VSCode\\Aplicaciones moviles\\ProyectoColores\\obj\\",
+      "projectPath": "C:\\Users\\crist\\OneDrive\\Desktop\\Otros\\Mobile\\ProyectoColores.csproj",
+      "packagesPath": "C:\\Users\\crist\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\crist\\OneDrive\\Desktop\\Otros\\Mobile\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [
-        "C:\\Users\\mifmi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\crist\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0-android",
